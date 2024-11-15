@@ -15,15 +15,15 @@ public class Sistemasolar22 {
 
     public static void main(String[] args) {
     
-        Planeta objPlaneta=new Planeta("Tierra","5");
+        Planeta objPlaneta=new Planeta("Tierra",5,25,10,0,4,TipoPlaneta.TERRESTRE);
         
         //objPlaneta.nombre="marte";
         //objPlaneta.cantidadDeSatelites=0;
-        objPlaneta.masaKilogramos=25;
-        objPlaneta.volumendelplanetaenkilogramosCubicos=10;
-        objPlaneta.diametrodelplanetaenKilogramos=0;
-        objPlaneta.distanciadelsolenMillonesdeKilometros=0;
-        objPlaneta.tipoPlaneta=TipoPlaneta.TERRESTRE;
+        //objPlaneta.masaKilogramos=25;
+        //objPlaneta.volumendelplanetaenkilogramosCubicos=10;
+        //objPlaneta.diametrodelplanetaenKilogramos=0;
+        //objPlaneta.distanciadelsolenMillonesdeKilometros=0;
+        //objPlaneta.tipoPlaneta=TipoPlaneta.TERRESTRE;
        // objPlaneta.tipoPlaneta=TipoPlaneta.GASEOSO;
         
         objPlaneta.imprimir();

@@ -30,6 +30,7 @@ public class Planeta {
         this.diametrodelplanetaenKilogramos = diametrodelplanetaenKilogramos;
         this.distanciadelsolenMillonesdeKilometros = distanciadelsolenMillonesdeKilometros;
         this.tipoPlaneta = tipoPlaneta;
+        this.exterior();
     }
     
 
@@ -61,9 +62,9 @@ public class Planeta {
         double limite=maximo*distancia;
         //boolean resp=false;
         if(distanciadelsolenMillonesdeKilometros>limite){
-            resp=true;
+            exterior=true;
         }
-        return resp; 
+        return exterior; 
        
     }
 }
